@@ -11,9 +11,9 @@
     font-weight:500;
 }
 .content {
-    padding:1rem;
+    padding:1.5rem;
     display:grid;
-    grid-gap:1rem;
+    grid-gap:1.5rem;
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
 }
 a.project-link{
@@ -31,7 +31,10 @@ a.project-link{
     border-radius:10px;
     box-shadow: 2px 2px #000000;
     transition-duration:0.1s;
+    display:flex;
+    flex-direction: column;
 }
+
 .title {
     padding:20px;
     background-color:#387a7a;
