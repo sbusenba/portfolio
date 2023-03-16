@@ -1,3 +1,8 @@
+
+@media (max-width:300px){
+
+}
+
 .project-img{
     max-width:200px;
     min-height:100px;
@@ -31,8 +36,19 @@ a.project-link{
 .project:hover{
     scale:1.1;
 }
-
-
+.about-me{
+    display:grid;
+}
+.about-links>img{
+    height:30px;
+    width:30px;
+    padding:1rem;
+    align-self: flex-end;
+}
+.about-links{
+    display:flex;
+    flex-direction: row;
+}
 .project{
     padding:10px;
     border:solid black 2px;
@@ -46,7 +62,7 @@ a.project-link{
     background-color: aliceblue;
 }
 
-.title {
+.header {
     padding:20px;
     background-color:#003b3b;
     color:honeydew;
