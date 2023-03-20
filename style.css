@@ -5,15 +5,17 @@
 }
 
 
-@media (max-width:720px){
-    .header{
-       
-    }
+@media (max-width:525px){
+
      .headshot{
-        
+        margin:1rem 1rem 1rem 1rem;
+        float:none;
+        width:fit-content;
+        align-self: center;
      }
      .about-me{
-        
+        display:flex;
+        flex-direction: column;
      }
      .headshot>h3{
         
@@ -23,9 +25,7 @@
 
 }
 
-.header h3, .header h4 {
-    margin:0px;
-}
+
 
 
 .header {
@@ -38,24 +38,20 @@
 }
 
 .about-me>p{
+    font-size: larger;
+}
 
-}
-.headshot>h3{
-    color:rgb(255, 255, 255);
-    position:absolute;
-    font-size: 2.3rem; 
-    top: -5rem;   
-}
 .headshot {
     float:left;
     height:fit-content;
     position:relative;
+    margin:-2rem 1rem .25rem  -2rem;
 }
 .headshot>img{
-    max-width:450px;
+    max-width:300px;
     height:auto;
     box-shadow: #494949 4px 2px;
-    margin:-1rem .5rem 1rem  -1rem;
+   
 }
 
 .project-img{
