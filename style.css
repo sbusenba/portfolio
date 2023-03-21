@@ -1,10 +1,4 @@
 
-@media (max-width:320px){
-
-
-}
-
-
 @media (max-width:540px){
 
      .headshot{
@@ -25,7 +19,6 @@
 
 
 }
-
 
 
 
@@ -54,11 +47,20 @@
     box-shadow: #494949 4px 2px;
    
 }
-
+.project-links{
+    display:flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
 .project-img{
     max-width:200px;
     min-height:100px;
     background-color: gold;
+}
+.github-icon{
+    width:40px;
+    height:auto;
+ 
 }
 
 .project-desc{
@@ -91,15 +93,17 @@ a.project-link{
 .about-links img{
     height:30px;
     width:30px;
-    padding:1rem;
+    
 }
 .about-links{
+    margin:2rem;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
+
 }
 .project{
-    padding:10px;
+    padding:1rem;
     border:solid black 2px;
     border-radius:10px;
     box-shadow: 2px 2px #000000;
