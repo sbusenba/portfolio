@@ -5,12 +5,13 @@
 }
 
 
-@media (max-width:525px){
+@media (max-width:540px){
 
      .headshot{
         margin:1rem 1rem 1rem 1rem;
         float:none;
         width:fit-content;
+        display:flex;
         align-self: center;
      }
      .about-me{
@@ -68,7 +69,7 @@
     padding:1rem;
     display:grid;
     grid-gap:1.5rem;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
     align-self: center;
     background-color: rgb(104, 128, 107);
 }
@@ -95,7 +96,7 @@ a.project-link{
 .about-links{
     display:flex;
     flex-direction: row;
-
+    justify-content: flex-end;
 }
 .project{
     padding:10px;
@@ -115,6 +116,7 @@ body{
     flex-direction:column;
     background-color: black;
     align-items: center;
+    margin:1rem;
 }
 .site {
     max-width: 1200px;
