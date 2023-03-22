@@ -43,7 +43,12 @@
 .about-me>p{
     font-size: larger;
 }
-
+.github-link{
+    margin-top:auto;
+    margin-bottom:0px;
+    display:flex;
+    align-self:flex-end;
+}
 .headshot {
     float:left;
     height:fit-content;
@@ -71,7 +76,11 @@
     height:auto;
  
 }
-
+.project-title{
+    margin:0.5rem;
+    font-size: larger;
+    font-weight:600;
+}
 .project-desc{
     text-align:center;
 }
