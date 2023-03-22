@@ -107,8 +107,13 @@ a.project-link{
     padding:1rem;
     color:#000000;
 }
+.contact-links img{
+    margin:1rem;
+    height:40px;
+    width: 40px;
+}
 
-.about-links img{
+.about-links img {
     margin:1rem;
     height:30px;
     width:30px;
@@ -145,6 +150,9 @@ body{
     max-width: 1200px;
     display:flex;
     flex-direction:column;
+}
+address>a{
+    color:white;
 }
 .footer{
     padding:1rem;
