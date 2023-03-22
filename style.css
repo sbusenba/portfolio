@@ -3,7 +3,7 @@
 
      .headshot{
         margin:1rem 1rem 1rem 1rem;
-        float:none;
+        float:top;
         width:fit-content;
         display:flex;
         align-self: center;
@@ -30,7 +30,16 @@
     flex:1 0 80px;
     font-family:'Courier New', Courier, monospace;
 }
-
+.work{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(2, 27, 16)
+}
+.work>h4{
+    color:azure;
+    font-size: xx-large;
+}
 .about-me>p{
     font-size: larger;
 }
@@ -73,7 +82,7 @@
     grid-gap:1.5rem;
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
     align-self: center;
-    background-color: rgb(104, 128, 107);
+    background-color: rgb(2, 27, 16);
 }
 a.project-link{
     color:black;
@@ -91,12 +100,13 @@ a.project-link{
 }
 
 .about-links img{
+    margin:1rem;
     height:30px;
     width:30px;
     
 }
 .about-links{
-    margin:2rem;
+    margin-right:2rem;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -106,13 +116,13 @@ a.project-link{
     padding:1rem;
     border:solid black 2px;
     border-radius:10px;
-    box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px #5c5c5c;
     transition-duration:0.1s;
     display:flex;
     flex-direction: column;
     align-items: center;
     transition:scale 0.6s ease-in-out;
-    background-color: aliceblue;
+    background-color:azure;
 }
 
 body{
